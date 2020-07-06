@@ -30,7 +30,7 @@ extension ViewController{
         
 //        let videoURL = URL(string: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")
         
-        let videoURL = URL(string: "http://livesim.dashif.org/livesim/testpic_2s/Manifest.mpd")
+        let videoURL = URL(string: "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8")
         
         let asset = AVURLAsset(url: videoURL!)
         let playerItem = AVPlayerItem(asset: asset)
